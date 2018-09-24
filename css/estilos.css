@@ -223,7 +223,7 @@ figure {
   background-size: 50px 50px;
 }
 .social-link.github {
-  background-image: url('../images/facebook.svg');
+  background-image: url('../images/github.png');
 }
 .social-link.linkedin {
   border: 1px white solid;
@@ -234,4 +234,26 @@ figure {
 .social-link.platzi {
   border-radius: 10px;
   background-image: url('../images/platzi.png');
+}
+.social-container {
+  display: inherit;
+  flex-wrap: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+}
+.info-container {
+  display: block;
+  flex-wrap: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+}
+.info-container h2 {
+  margin-bottom: 0;
+  padding: 0;
+}
+.info-container p {
+  margin: 2px;
+  padding: 5px 20px;
 }
